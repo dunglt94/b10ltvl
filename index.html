@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập vòng lặp</title>
+</head>
+<body>
+<h3>Các hãng xe nổi tiếng tại Việt Nam:</h3>
+    <button onclick="showBrands()">Hiển thị</button>
+<p id="car_brands"></p>
+<div id="hidden" style="visibility: hidden">
+    <h4>Chọn hãng xe mà bạn thích (bằng cách nhập số tương ứng của hãng vào ô dưới):</h4>
+    <label><input type="number" name="favorite_brand" min="1" max="13" id="favorite_brand"></label>
+    <button onclick="pickFavBrand()">Chọn</button>
+  <p>Hãng mà bạn thích là:<span id="chosenBrand"></span></p>
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
